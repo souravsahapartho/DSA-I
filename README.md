@@ -1,39 +1,71 @@
-# DSA-I (C++)
+# Data Structures and Algorithms I
 
-Data Structure Algorithm I;
-Course Code: CSE 2216;
-Trimester: Spring 2025
+### 📘 Course Information
+
+- **Course Title:** Data Structures and Algorithms I
+- **Course Code:** CSE 2216
+- **Trimester:** Spring 2025
 
 ## 📚 Project Overview
-This repository contains a comprehensive collection of implementations and solutions for the **Data Structure and Algorithms I** course. It includes class codes, assignments, and practice problems focused on fundamental data structures and algorithmic techniques using C++.
+
+This repository contains laboratory assignments, programming exercises, and algorithm implementations completed for the **Data Structures and Algorithms I** course. It focuses on the fundamental concepts of data structures, algorithm design, and complexity analysis using C++. The repository provides practical implementations of core data structures and problem-solving techniques to build a strong programming foundation. :contentReference[oaicite:0]{index=0}
 
 ## 📁 Repository Structure
 
-### 1. Class Codes
-Implementation of core data structures and sorting algorithms:
-* **Linear Data Structures**: Stack (Array/Linked List), Queue (Array/Linked List), and Linked Lists (Singly/Doubly).
-* **Sorting Algorithms**: Bubble Sort, Insertion Sort, and Selection Sort.
-* **Graph Algorithms**: Adjacency List representation and Breadth-First Search (BFS).
-* **Searching**: Recursive Binary Search.
+### 1. Arrays & Strings
+Programs covering fundamental data manipulation:
+- One-dimensional and two-dimensional arrays
+- String processing
+- Matrix operations
 
-### 2. Assignments
-* **Assignment 01**: Foundational C++ algorithm problems.
-* **Assignment 02**: Advanced data structure applications.
+### 2. Searching & Sorting
+Implementation of basic searching and sorting algorithms:
+- Linear Search
+- Binary Search
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
 
-### 3. Practice Problems
-* **Graph Theory**: Includes problems on Bipartite graphs, Connected Components, Cycle detection, Shortest Path, and Topological Sorting.
-* **Linked List**: Various manipulation exercises and edge-case handling.
-* **Stack & Queue**: Applications such as Infix to Postfix conversion and Infix to Prefix conversion.
-* **Searching**: A variety of search-based logic problems.
+### 3. Recursion
+Recursive programming examples including:
+- Factorial
+- Fibonacci Series
+- Recursive array and string operations
 
-## 🛠️ Getting Started
+### 4. Linked Lists
+Dynamic data structure implementations:
+- Singly Linked List
+- Doubly Linked List
+- Circular Linked List
+- Basic linked list operations
+
+### 5. Stack & Queue
+Programs demonstrating linear data structures:
+- Stack using Arrays
+- Stack using Linked Lists
+- Queue Implementation
+- Circular Queue
+
+## 🛠️ Key Concepts Covered
+
+- **Algorithm Analysis:** Big-O time and space complexity
+- **Arrays & Strings:** Efficient data storage and manipulation
+- **Recursion:** Recursive problem-solving techniques
+- **Linked Lists:** Dynamic memory allocation
+- **Stacks & Queues:** Linear data structure operations
+- **Searching & Sorting:** Fundamental algorithm implementations
+
+## 🚀 Getting Started
 
 ### Prerequisites
-* A C++ compiler (e.g., GCC, Clang, or MSVC).
-* Integrated Development Environment (IDE) like VS Code, CodeBlocks, or Dev-C++.
+
+- C++ Compiler (GCC, MinGW, or Clang)
+- Visual Studio Code, Code::Blocks, Dev-C++, or any C++ IDE
 
 ### How to Run
-1. Navigate to the desired directory (e.g., `Class Codes`).
-2. Compile the `.cpp` file:
-   ```bash
-   g++ FileName.cpp -o FileName
+
+1. Clone this repository.
+2. Open the desired `.cpp` source file.
+3. Compile the program using your preferred C++ compiler.
+4. Run the executable and test with different inputs.
+5. Explore and modify the implementations to better understand each data structure and algorithm.
